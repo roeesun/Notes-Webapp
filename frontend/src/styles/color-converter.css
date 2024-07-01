@@ -1,0 +1,53 @@
+.color-converter-container {
+    max-width: 400px;
+    margin: 40px auto 0px auto;
+    padding: 20px;
+    border: 1px solid #a3a3a3;
+    border-radius: 8px;
+    background-color: #dafffe;
+  }
+
+  .dark .color-converter-container {
+    color: white;
+    background-color: rgb(55, 55, 55);
+  }
+  
+  .color-converter-container .color-input-field {
+    margin-bottom: 15px;
+  }
+  
+  .color-converter-container .color-input-field label {
+     display: flex;
+     align-items: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .color-converter-container .color-input-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .dark .color-converter-container .color-input-field input {
+    color: white;
+    background-color: rgb(131, 131, 131);
+  }
+  
+  .color-converter-container .color-display {
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 15px;
+    border: solid black 2px ;
+  }
+
+  .color-cube-preview {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border: solid black 2px;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,52 @@
+/* Container for the whole page */
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 150px auto;
+  width: 100%;  
+  min-height: 100vh;
+  background-color: #fff8f8;
+  transition: 0.35s;
+}   
+
+.container.dark {
+  background-color: #1a1919;
+  color: whitesmoke;
+} 
+
+main {
+  flex : 1;
+  grid-column: 2;
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* Adjust the width of the scrollbar */
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9f9f9f; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Roundness of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8e8e8e; /* Color of the scrollbar thumb on hover */
+}
+
+.center-text {
+    text-align: center;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
